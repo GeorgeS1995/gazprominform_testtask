@@ -25,7 +25,7 @@
 `docker run --rm --env-file ./.env --volume /you/absolute/path/gazprominfo/storage/:/code/gazprominfo/storage -p 8000:8000 --name gazprominfo_1 gazprominfo`
 # Запуск тестов
 `docker exec  gazprominfo_1 /bin/bash -c " cd ./gazprominfo && pytest -v"`
-# Запуск миграции ***обязательно при первом запуске, это создасть новую бд в ./gazprominfo/storage/***
+# Запуск миграции ***обязательно при первом запуске, это создаст новую бд в ./gazprominfo/storage/***
 `docker exec  gazprominfo_1 /bin/bash -c "cd ./gazprominfo && python manage.py migrate"`
 
 # Доступные методы
