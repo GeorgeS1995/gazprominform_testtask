@@ -1,0 +1,10 @@
+[
+  {
+    "html": "<div class=\"office_desc\">\n\t\t<h3>Адрес для&nbsp;почтовой корреспонденции</h3>\n\t\t<p>BOX 1255, Санкт-Петербург, 190900</p>\n\t\t<h3>Адрес для&nbsp;приема корреспонденции, направляемой нарочно</h3>\n\t\t<p>Московский проспект, д.&nbsp;156, лит. А, Санкт-Петербург</p>\n\t\t<h3>Адрес местонахождения</h3>\n\t\t<p>Лахтинский проспект, д.&nbsp;2, корп. 3, стр. 1, Санкт-Петербург, 197229</p>\n\t\t<h3>Телефон</h3>\n\t\t<p>+7&nbsp;812 413-74-44&nbsp;(справочный)</p>\n\t\t<p>+7&nbsp;812 413-74-45&nbsp;(факс)</p>\n\t\t<h3>Электронная почта</h3>\n\t\t<p><a href=\"mailto:gazprom@gazprom.ru\">gazprom@gazprom.ru</a></p>\n\t\t<p><a href=\"mailto:webmaster@gazprom.ru\">webmaster@gazprom.ru</a> (для&nbsp;приема замечаний по&nbsp;работе сайта)</p>\n\t\t<h3>Номера телеграфной связи</h3>\n\t\t<ul class=\"list\">\n\t\t\t<li>111012&nbsp;«Синтин»;</li>\n\t\t\t<li>121805&nbsp;GAZ RU;</li>\n\t\t\t<li>121806&nbsp;GAZ RU.</li>\n\t\t</ul>\n\t</div>",
+    "emails": ["gazprom@gazprom.ru", "webmaster@gazprom.ru"]
+  },
+  {
+    "html": "<ul class=\"list\">\n\t\t\t<li>111012&nbsp;«Синтин»;</li>\n\t\t\t<li>121805&nbsp;GAZ RU;</li>\n\t\t\t<li>121806&nbsp;GAZ RU.</li>\n\t\t</ul>",
+    "emails": []
+  }
+]

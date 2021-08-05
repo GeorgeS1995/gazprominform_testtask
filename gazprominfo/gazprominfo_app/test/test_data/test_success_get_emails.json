@@ -1,0 +1,19 @@
+[
+  {
+    "email": "gazprom@gazprom.ru",
+    "urls": [
+      "https://www.gazprom.ru/contacts/"
+    ]
+  },
+  {
+    "email": "example@example.com",
+    "urls": [
+      "https://www.gazprom.ru/contacts/",
+      "https://example.ru"
+    ]
+  },
+  {
+    "email": "empty@example.com",
+    "urls": []
+  }
+]
