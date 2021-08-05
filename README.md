@@ -22,7 +22,7 @@
 2. Собрать контейнер:  
 `docker build -t gazprominfo .` (gazprominfo - имя образа, можно поставить произвольное)
 # Запуск контейнера
-`docker run --rm --env-file ./.env --volume ./gazprominfo/storage/:/code/gazprominfo/storage -p 8000:8000 --name gazprominfo_1 gazprominfo`
+`docker run --rm --env-file ./.env --volume /you/absolute/path/gazprominfo/storage/:/code/gazprominfo/storage -p 8000:8000 --name gazprominfo_1 gazprominfo`
 # Запуск тестов
 `docker exec  gazprominfo_1 /bin/bash -c " cd ./gazprominfo && pytest -v"`
 # Запуск миграции ***обязательно при первом запуске, это создасть новую бд в ./gazprominfo/storage/***
